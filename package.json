@@ -30,45 +30,45 @@
     ]
   },
   "peerDependencies": {
-    "react": "^16.12.0"
+    "react": "^17.0.2"
   },
   "dependencies": {
-    "@material-ui/core": "^4.9.3",
-    "@material-ui/icons": "^4.9.1",
-    "file-saver": "^2.0.2",
-    "mdi-material-ui": "^6.12.0",
-    "mime-types": "^2.1.26",
-    "ramda": "^0.27.0",
-    "react-intersection-observer": "^8.26.1",
-    "react-pdf": "^4.1.0"
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "file-saver": "^2.0.5",
+    "mdi-material-ui": "^6.22.1",
+    "mime-types": "^2.1.32",
+    "ramda": "^0.27.1",
+    "react-intersection-observer": "^8.32.0",
+    "react-pdf": "^5.3.2"
   },
   "devDependencies": {
-    "@babel/compat-data": "^7.8.0",
-    "@babel/preset-env": "^7.8.0",
-    "babel-loader": "^8.1.0",
-    "@babel/core": "^7.8.4",
-    "@babel/preset-react": "^7.8.3",
-    "@storybook/addon-actions": "^5.3.13",
-    "@storybook/addon-links": "^5.3.13",
-    "@storybook/addons": "^5.3.13",
-    "@storybook/react": "^5.3.13",
-    "babel-jest": "^25.1.0",
-    "classnames": "^2.2.6",
-    "husky": "^4.2.3",
-    "jest": "^25.1.0",
-    "lint-staged": "^10.0.7",
-    "prettier": "^1.19.1",
+    "@babel/compat-data": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "@storybook/addon-actions": "^6.3.6",
+    "@storybook/addon-links": "^6.3.6",
+    "@storybook/addons": "^6.3.6",
+    "@storybook/react": "^6.3.6",
+    "babel-jest": "^27.0.6",
+    "classnames": "^2.3.1",
+    "husky": "^7.0.1",
+    "jest": "^27.0.6",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.3.2",
     "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-test-renderer": "^16.12.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-test-renderer": "^17.0.2",
     "rimraf": "^3.0.2",
-    "rollup": "^1.32.0",
+    "rollup": "^2.56.0",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-bundle-size": "^1.0.3",
-    "rollup-plugin-copy": "^3.3.0"
+    "rollup-plugin-copy": "^3.4.0"
   },
   "resolutions": {
-    "@babel/preset-env": "^7.8.0"
+    "@babel/preset-env": "^7.15.0"
   }
 }
