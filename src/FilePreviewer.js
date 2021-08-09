@@ -25,6 +25,8 @@ import ViewportContent from './ViewportContent';
  * @param  {String}   props.file.data
  * @param  {String}   props.file.name
  * @param  {String}   props.file.mimeType
+ * @param  {Boolean}  props.hideControls
+ * @param  {Boolean}  props.hideDownload
  * @return {Object}
  */
 const FilePreviewer = props => {
@@ -186,7 +188,7 @@ const FilePreviewer = props => {
         onPageUp={onPageUp}
         onRotate={onRotate}
         totalPages={totalPages}
-        onDownload={onDownload}
+        onDownload={props.hideDownload ? null : onDownload}
         onPageDown={onPageDown}
         currentPage={currentPage}
         hidden={props.hideControls}
@@ -220,6 +222,7 @@ FilePreviewer.propTypes = {
   }).isRequired,
   onClick: PropTypes.func,
   hideControls: PropTypes.bool,
+  hideDownload: PropTypes.bool
 };
 
 FilePreviewer.defaultProps = {

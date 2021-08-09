@@ -11,9 +11,9 @@ const PreviewBarRight = props => (
       <RotateRight />
     </Button>
 
-    <Button onClick={props.onDownload}>
+   {props.onDownload && <Button onClick={props.onDownload}>
       <Download />
-    </Button>
+    </Button>}
   </div>
 );
 
