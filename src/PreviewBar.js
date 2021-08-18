@@ -30,7 +30,7 @@ PreviewBar.propTypes = {
   onPageUp: PropTypes.func.isRequired,
   onRotate: PropTypes.func.isRequired,
   onPageDown: PropTypes.func.isRequired,
-  onDownload: PropTypes.func.isRequired,
+  onDownload: PropTypes.func,
   totalPages: PropTypes.number.isRequired,
   currentPage: PropTypes.number.isRequired,
   hidden: PropTypes.bool,

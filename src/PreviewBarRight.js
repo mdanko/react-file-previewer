@@ -19,7 +19,7 @@ const PreviewBarRight = props => (
 
 PreviewBarRight.propTypes = {
   onRotate: PropTypes.func.isRequired,
-  onDownload: PropTypes.func.isRequired,
+  onDownload: PropTypes.func,
 };
 
 export default PreviewBarRight;
